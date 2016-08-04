@@ -5,11 +5,11 @@ _Run Test with Travis to Scan URL's in the Markdown files and complain when the 
 ### Build Status => [![Build Status](https://travis-ci.org/ellerbrock/travis-deadlink-scanner.svg?branch=master)](https://travis-ci.org/ellerbrock/travis-deadlink-scanner)
 
 -   Test 1: passed
--   Test 2:
+-   Test 2: i let failed  
+-   
 
-here a deadlink:
-[deadlink](https://github.com/ellerbrock/travis-deadlink-scanner/app.dmg)
-should throw an error ...
+Ok cool, all working.  
+Now time to learn more about Travis and then write a small Testsuite for my needs ...
 
 <br><br>
 
