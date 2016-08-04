@@ -1,0 +1,12 @@
+{
+  "name": "travis-link-check",
+  "version": "1.0.0",
+  "description": "scan markdown files for deadlinks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["travis", "deadlink", "urlscan", "404", "link", "scan", "url", "test"],
+  "author": "Maik Ellerbrock",
+  "license": "MIT"
+}
