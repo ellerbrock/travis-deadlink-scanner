@@ -4,18 +4,15 @@ _Run Test with Travis to Scan URL's in the Markdown files and complain when the 
 
 ### Build Status => [![Build Status](https://travis-ci.org/ellerbrock/travis-deadlink-scanner.svg?branch=master)](https://travis-ci.org/ellerbrock/travis-deadlink-scanner)
 
--   Test 1: passed
--   Test 2: i let failed  
--   
+*.travis.yml:*
+```
+language: ruby
+rvm: 2.2
+before_script: gem install awesome_bot
+script: awesome_bot --allow-dupe --allow-redirect *.md
+```
 
-Ok cool, all working.  
-Now time to learn more about Travis and then write a small Testsuite for my needs ...
-
-<br><br>
-
-This is just a first simple test where all the work comes from [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [travis](https://travis-ci.org). Just for learning and getting more into Travis. The next plan is to write a few npm Modules to scan lot more for broken stuff. I lately made a few pull requests in some big repositories where components not working because of simple 404 problems. All the Websites hosted on Github worth to scan before or after a commit to avoid later problems.
-
-In case there is already a solution for this let me know.
+Check [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [travis](https://travis-ci.org) for more informations.
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
